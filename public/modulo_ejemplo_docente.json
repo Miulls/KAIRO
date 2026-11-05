@@ -1,0 +1,37 @@
+{
+  "id": "modulo-mitos-panama",
+  "title": "Módulo 2: Tradiciones y Leyendas de Panamá",
+  "description": "Comprensión lectora y léxico autóctono para 7.° Grado.",
+  "grade": "7.° Grado - Español",
+  "activities": [
+    {
+      "id": "mod-mitos-1",
+      "type": "fill_sentence",
+      "level": "Intermedio",
+      "competency": "vocabulario",
+      "title": "Leyendas del interior: El Chivato",
+      "instruction": "Completa la oración sobre las historias tradicionales de Los Santos:",
+      "sentenceTemplate": "Los campesinos relatan que en los caminos solitarios se escuchaban ruidos con mucho ___.",
+      "options": ["asombro", "azombro", "asombro"],
+      "answer": "asombro",
+      "tip": "La palabra asombro se escribe con 's' y con 'b' antes de 'r'."
+    },
+    {
+      "id": "mod-mitos-2",
+      "type": "reading_comprehension",
+      "level": "Avanzado",
+      "competency": "comprension_lectora",
+      "title": "Lectura: El Canajagua",
+      "instruction": "Lee la breve reseña histórica y responde:",
+      "readingText": "El cerro Canajagua es el punto más elevado de la península de Azuero. Desde su cima, los antiguos moradores divisaban tanto las costas del Pacífico como los valles agrícolas, sirviendo de guía natural a caminantes.",
+      "question": "¿Por qué el cerro Canajagua servía de guía a los caminantes?",
+      "options": [
+        "Porque era el punto más alto y visible de la región",
+        "Porque tenía un faro eléctrico moderno",
+        "Porque estaba dentro del mar"
+      ],
+      "answer": "Porque era el punto más alto y visible de la región",
+      "tip": "El texto indica que su gran elevación permitía divisar valles y costas, sirviendo de referencia natural."
+    }
+  ]
+}

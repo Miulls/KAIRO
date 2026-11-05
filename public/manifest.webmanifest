@@ -1,0 +1,19 @@
+{
+  "name": "KAIRO — Aprendizaje portátil y offline",
+  "short_name": "KAIRO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7f4",
+  "theme_color": "#176b55",
+  "description": "KAIRO — Aprendizaje portátil y offline para mantener la educación en adversidades y catástrofes.",
+  "icons": [
+    {
+      "src": "/icon-512.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

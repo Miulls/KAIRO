@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e7" />
+      <stop offset="100%" stop-color="#ebf5ee" />
+    </radialGradient>
+    <linearGradient id="featherRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e62e2e" />
+      <stop offset="100%" stop-color="#b81414" />
+    </linearGradient>
+    <linearGradient id="featherYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd53d" />
+      <stop offset="100%" stop-color="#f5a623" />
+    </linearGradient>
+    <linearGradient id="featherBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d82b7" />
+      <stop offset="100%" stop-color="#194569" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo circular ilustrado -->
+  <circle cx="200" cy="200" r="180" fill="url(#bgGlow)" stroke="#cde3d4" stroke-width="6" />
+
+  <!-- Tronco de árbol panameño -->
+  <path d="M70 320 C130 290 190 280 340 310 L330 350 C200 320 130 330 60 360 Z" fill="#7a5230" />
+
+  <!-- Cola larga de la Guacamaya (roja, azul y amarilla) -->
+  <path d="M210 240 Q180 330 150 380 Q190 320 220 250 Z" fill="url(#featherRed)" />
+  <path d="M218 245 Q200 340 180 390 Q210 320 225 250 Z" fill="url(#featherBlue)" />
+  <path d="M225 245 Q220 330 210 370 Q225 310 230 250 Z" fill="url(#featherYellow)" />
+
+  <!-- Cuerpo y pecho rojo escarlata -->
+  <path d="M190 110 C150 140 145 230 190 270 C220 275 250 250 255 210 C260 170 240 120 190 110 Z" fill="url(#featherRed)" />
+
+  <!-- Ala con franjas amarilla, azul y verde -->
+  <path d="M200 150 C240 155 270 195 260 245 C240 240 220 200 200 150 Z" fill="url(#featherYellow)" />
+  <path d="M215 190 C255 195 275 235 255 270 C240 250 225 220 215 190 Z" fill="#38a56c" />
+  <path d="M220 220 C260 225 270 265 245 295 C235 270 225 245 220 220 Z" fill="url(#featherBlue)" />
+
+  <!-- Cabeza de la Guacamaya -->
+  <circle cx="175" cy="110" r="45" fill="url(#featherRed)" />
+
+  <!-- Parche facial blanco característico -->
+  <path d="M150 95 C145 115 160 130 185 125 C190 105 175 90 150 95 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" />
+
+  <!-- Ojo -->
+  <circle cx="168" cy="108" r="6" fill="#1b2a26" />
+  <circle cx="170" cy="106" r="2" fill="#ffffff" />
+
+  <!-- Pico curvado fuerte (marfil y negro) -->
+  <path d="M140 98 Q115 110 120 135 Q135 125 145 120 Z" fill="#fffbe8" stroke="#d4c9a8" stroke-width="1.5" />
+  <path d="M130 125 Q115 130 122 142 Q136 138 142 128 Z" fill="#2d3748" />
+
+  <!-- Patas sujetando la rama -->
+  <ellipse cx="195" cy="275" rx="10" ry="6" fill="#505a5f" />
+  <ellipse cx="215" cy="275" rx="10" ry="6" fill="#505a5f" />
+</svg>
